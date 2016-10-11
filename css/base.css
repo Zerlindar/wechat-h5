@@ -1,0 +1,184 @@
+.hide {
+  display: none;
+}
+body {
+  background: #FFF;
+}
+#banner-area {
+  position: relative;
+  height: 6.3rem;
+  background: url('../images/bg.jpg') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  overflow: hidden;
+}
+#banner-area .banner-card {
+  position: absolute;
+  left: 0;
+  top: 0.1333rem;
+  width: 1.187rem;
+  height: 0.813rem;
+  background: url('../images/card.png') no-repeat;
+  background-size: 100% 100%;
+}
+#banner-area .banner {
+  width: 70%;
+  margin: 1.733rem auto 0;
+  overflow: hidden;
+}
+#banner-area .banner .banner-title {
+  overflow: hidden;
+}
+#banner-area .banner .banner-title .firm {
+  margin: 0;
+  font-size: 0.507rem;
+  font-weight: normal;
+  color: #ff4a83;
+  text-align: left;
+}
+#banner-area .banner .describe {
+  position: relative;
+  display: inline-block;
+}
+#banner-area .banner .describe .discount {
+  font-size: 1.4rem;
+  color: #ff4a83;
+  text-align: right;
+}
+#banner-area .banner .describe .big {
+  font-size: 2.933rem;
+  line-height: 2.933rem;
+}
+#banner-area .banner .describe .round {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  margin: 0 0.133rem 0 0;
+  border: 0.2rem solid #ff4a83;
+  border-radius: 50%;
+}
+#banner-area .banner .describe .type {
+  position: absolute;
+  right: 0.24rem;
+  top: 0.4rem;
+  padding: 0.1rem 0.2rem;
+  background: #ff4a83;
+  color: #fff;
+  font-size: 0.427rem;
+}
+.content {
+  padding: 0.56rem 1.44rem 0.533rem;
+}
+.content .button-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.48rem;
+  border: 1px solid #959595;
+  font-size: 0.533rem;
+  text-align: center;
+  overflow: hidden;
+}
+.content .button-wrapper input,
+.content .button-wrapper button {
+  display: inline-block;
+  vertical-align: top;
+  width: 98%;
+  height: 1.147rem;
+  line-height: 1.147rem;
+  padding: 0;
+  outline: none;
+  font-size: 0.4rem;
+  color: #c1c1c1;
+  background: #fff;
+  border: 0;
+}
+.content .button-wrapper .mobile {
+  width: 66%;
+}
+.content .button-wrapper #btnSendCode {
+  display: inline-block;
+  width: 33%;
+  height: 1.147rem;
+  line-height: 1.147rem;
+  outline: none;
+  font-size: 0.4rem;
+  color: #343434;
+  background: #fff;
+  border-left: 1px solid #959595;
+}
+.content .button-wrapper .prevent {
+  background: #f9f9f9;
+  color: #000;
+  pointer-events: none;
+}
+.content .red-button {
+  background: #ff4a83;
+  color: #fff;
+  font-size: 0.533rem;
+  width: 100%;
+  height: 1.147rem;
+  line-height: 1.147rem;
+  text-align: center;
+}
+.react {
+  padding: 1.0133rem 1.44rem 0.8rem;
+}
+.react .success {
+  margin: 0 auto 1.0133rem;
+  width: 4.9867rem;
+  height: 2.013rem;
+  background: url('../images/success.png') top center no-repeat;
+  background-size: 100% 100%;
+}
+.react #btnGet {
+  width: 100%;
+  height: 1.1467rem;
+  background: #ff4a83;
+  color: #fff;
+  font-size: 0.533rem;
+  border: none;
+}
+.react a:link,
+.react a:visited,
+.react a:hover,
+.react a:active {
+  text-decoration: none;
+  color: #fff;
+}
+.react .red-button {
+  display: block;
+  background: #ff4a83;
+  color: #fff;
+  font-size: 0.533rem;
+  width: 100%;
+  height: 1.1467rem;
+  line-height: 1.1467rem;
+  text-align: center;
+}
+.rule {
+  padding: 0.5555rem 0.5333rem 2rem;
+  background: #f5f5f5 url('../images/bg_bottom.png') top left repeat-x;
+  background-size: 0.4rem 0.12rem;
+}
+.rule .des-title {
+  margin-bottom: 0.5333rem;
+  text-align: center;
+}
+.rule .des-title .title {
+  display: inline-block;
+  text-align: center;
+  padding: 0 0.8rem;
+  font-size: 0.4533rem;
+  color: #343434;
+  background: url('../images/left.png') left center no-repeat, url('../images/right.png') right center no-repeat;
+  background-size: 0.24rem 0.24rem;
+}
+.rule .rule-detail .details {
+  padding: 0;
+  margin: 0;
+}
+.rule .rule-detail .details li {
+  list-style: none;
+  font-size: 0.3733rem;
+  color: #686868;
+}
